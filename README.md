@@ -16,6 +16,8 @@ and then run mvn clean install
 
 In Webstorm, open ang-src folder and run npm install in terminal
 
+ang-src -> Angular FE sources
+src -> Java BE sources
 
 
 
