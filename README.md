@@ -9,7 +9,11 @@ password: Capone123@
 
 and Import LearningProject_atm.sql from project in Server -> Data import
 
-In IntelliJ, open entire project and run mvn clean install
+In IntelliJ, open entire project, open Project Structure -> Modules and then set
+src/main/java as Sources
+src/test/java as Tests
+src/main/resources as Resources
+and then run mvn clean install and 
 
 In Webstorm, open ang-src folder and run npm install in terminal
 
