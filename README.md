@@ -2,11 +2,12 @@ Prerequisites:
 Webstorm, NodeJs, NPM, IntelliJ, Maven, Mysql-Workbench
 
 In Mysql-Workbench setup a new connection with credentials from src/main/resources/application.properties
-
 host: 127.0.0.1
 port: 3306
 username: admin
 password: Capone123@
+
+and Import LearningProject_atm.sql from project in Server -> Data import
 
 In IntelliJ, open entire project and run mvn clean install
 
