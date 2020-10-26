@@ -1,0 +1,21 @@
+<div class="container">
+  <br>
+  <form [formGroup]="withdrawForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group row">
+      <div class="col-xl-4">
+        <label>
+          Enter a sum
+          <input type="text" class="form-control" id="withdrawSum" formControlName="withdrawSum" required>
+        </label>
+      </div>
+    </div>
+
+    <br>
+    <button type="submit" style="margin-left: 15px" class="btn btn-success">Submit</button>
+    <button type="button" style="margin-left: 30px" class="btn btn-danger" (click)="navigateToLogin()">Cancel</button>
+
+  </form>
+</div>
+
+
