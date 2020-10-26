@@ -13,7 +13,7 @@ In IntelliJ, open entire project, open Project Structure -> Modules and then set
 src/main/java as Sources
 src/test/java as Tests
 src/main/resources as Resources
-and then run mvn clean install and 
+and then run mvn clean install
 
 In Webstorm, open ang-src folder and run npm install in terminal
 
